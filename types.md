@@ -2,7 +2,7 @@
 
 ## Introduction
 
-TypeScript knows the JavaScript language and will generate types for you in many cases. For example in creating a variable and assigning it to a particular value, TypeScript will use the value as its type.
+TypeScript knows the JavaScript language and will assign data type for you in default cases when you don't add any type. For example in creating a variable and assigning it to a particular value, TypeScript will use the value as its type.
 
 ```ts
 let myName = 'Raj';
@@ -51,6 +51,8 @@ mixed = true;
 mixed = 'You can do this!';
 mixed = 100;
 ```
+
+As you can see, it kinda just works like the OR operator, so looking at the above example again, if the assigned value is number, string or boolean, then you can assign it to the mixed type, otherwise it'll throw an error.
 
 ### Arrays
 
