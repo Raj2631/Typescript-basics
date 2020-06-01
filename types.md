@@ -9,7 +9,7 @@ let myName = 'Raj';
 ```
 
 The code above will create a variable myName and stores a string _Raj_ in that variable.
-If you try to assign a number into myName, that'll give you error because you cannot store any other variable inside it, the type of the value you store initially while declaring the variable cannot be changed.
+If you try to assign a number into myName, that'll give you error because you cannot store value of any other data type inside it, the type of the value you store initially while declaring the variable cannot be changed.
 
 ## Declaring variables with required type.
 
